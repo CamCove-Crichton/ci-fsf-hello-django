@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-sa$97218k49isflal_c404($l3d$!u5-x-2psli7l(wzo(ysgi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-camcove-crichton-ci-fsf-48xo30j9h6.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['cc-hello-djando-to-do-app.herokuapp.com']
 
 
 # Application definition
