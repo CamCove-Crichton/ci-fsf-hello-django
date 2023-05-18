@@ -34,7 +34,8 @@ SECRET_KEY = os.environ.get(
 DEBUG = development
 
 if development:
-    ALLOWED_HOSTS = ['localhost']
+    ALLOWED_HOSTS = [
+        '8000-camcove-crichton-ci-fsf-48xo30j9h6.us2.codeanyapp.com']
 else:
     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
